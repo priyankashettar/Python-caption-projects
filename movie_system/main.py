@@ -18,7 +18,7 @@ def main():
 
     while user_input !='q':
         if user_input=='1':
-            movie_name=input("enter the movie name")
+            movie_name=input("enter the movie name here")
             movie_language=input("enter the language")
             user.add_movies(movie_name,movie_language)  
         elif user_input=='2':
