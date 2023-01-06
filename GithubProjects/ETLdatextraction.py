@@ -12,10 +12,10 @@ from datetime import datetime
 import s3fs
 
 def etl_twitterdataextraction():
-    access_key= "O8DGMr5G6qYFw9Pk69WzUJ2rn"
-    access_secret= "CCyMRr7bklWDgbhQwtdImhsnyppweBYNA0pnyLp2886ysP1LVc"
-    consumer_key= "383281261-r2Ntz2Ck7Yvo0N3ME0z823r5NTlW8Z9ttTV5EiVW"
-    consumer_secret= "86mGvNbLQU9RYnkiO1YrvsgAAY9KmEnBQUI3KdjO9ti8d"
+    access_key="*****"
+    access_secret= "******"
+    consumer_key= "******"
+    consumer_secret= "******"
 
     #Twitter authentication
     auth=tweepy.OAuthHandler(access_key,access_secret)
